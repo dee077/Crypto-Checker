@@ -1,0 +1,57 @@
+.table-div{
+    margin: 2.5% 10%;
+    padding-bottom: 35px;
+}
+table {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 20px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+  .row-image{
+    width: 35px;
+    margin-right: 10px;
+  }
+  .coin-th{
+        padding-left: 50px;
+  }
+  tr{
+    cursor: pointer;
+  }
+
+  table {
+    width: 100%;
+}
+thead, tbody, tfoot, tr, td, th {
+  border-bottom: 2px solid rgb(50, 50, 50);
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+.table-div{
+  ::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled){
+    background-color: rgb(31, 31, 30);
+  }
+  ::ng-deep .mat-mdc-table .mdc-data-table__header-row{
+    background-color: rgb(31, 31, 30);
+  }
+  ::ng-deep .mat-mdc-table .mdc-data-table__row{
+    background-color: rgb(31, 31, 30);
+  }
+  ::ng-deep .mat-mdc-table .mdc-data-table__row:hover{
+    background-color: rgb(56, 56, 55);
+  }
+  ::ng-deep .mat-mdc-paginator-container{
+    background-color: rgb(31, 31, 30);
+  }
+}
