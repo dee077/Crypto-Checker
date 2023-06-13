@@ -11,9 +11,13 @@ describe('CoinListComponent', () => {
       declarations: [ CoinListComponent ]
     })
     .compileComponents();
+<<<<<<< HEAD
   });
 
   beforeEach(() => {
+=======
+
+>>>>>>> master
     fixture = TestBed.createComponent(CoinListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

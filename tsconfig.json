@@ -16,10 +16,18 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+<<<<<<< HEAD
     "target": "es2017",
     "module": "es2020",
     "lib": [
       "es2020",
+=======
+    "target": "ES2022",
+    "module": "ES2022",
+    "useDefineForClassFields": false,
+    "lib": [
+      "ES2022",
+>>>>>>> master
       "dom"
     ]
   },

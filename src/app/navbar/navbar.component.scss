@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  padding: 5px 3px;
+  fa-icon {
+    font-size: 30px;
+    color: white;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .name {
+    font-size: 28px;
+    font-family: "Lilita One", cursive;
+    color: white;
+    // text-shadow: 2px 1px 1px gray;
+    cursor: pointer;
+  }
+}
+.selector {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10%;
+  ::ng-deep .mat-mdc-form-field-subscript-wrapper {
+    display: none;
+  }
+  ::ng-deep
+    .mdc-text-field--no-label:not(.mdc-text-field--outlined):not(
+      .mdc-text-field--textarea
+    )
+    .mat-mdc-form-field-infix {
+    padding: 11% 7%;
+  }
+  ::ng-deep .mat-mdc-form-field-infix {
+    min-height: 0;
+  }
+  ::ng-deep .mat-mdc-form-field-infix {
+    max-width: 60px;
+  }
+  ::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: rgb(31, 31, 30);
+  }
+  ::ng-deep .mat-mdc-form-field.mat-focused.mat-primary .mat-mdc-select-arrow {
+    color: white;
+  }
+  ::ng-deep .mdc-text-field--filled .mdc-line-ripple::after {
+    border-bottom-color: white;
+  }
+  ::ng-deep .cdk-overlay-pane:not(.mat-mdc-select-panel-above) .mdc-menu-surface.mat-mdc-select-panel {
+    background-color: red;
+  }
+}

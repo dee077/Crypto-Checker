@@ -4,6 +4,7 @@
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
     "types": [
+<<<<<<< HEAD
       "jasmine"
     ]
   },
@@ -11,6 +12,12 @@
     "src/test.ts",
     "src/polyfills.ts"
   ],
+=======
+      "jasmine",
+      "@angular/localize"
+    ]
+  },
+>>>>>>> master
   "include": [
     "src/**/*.spec.ts",
     "src/**/*.d.ts"

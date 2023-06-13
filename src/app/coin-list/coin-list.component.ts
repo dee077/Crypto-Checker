@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { CurrencyService } from './../service/currency.service';
 import { ApiService } from './../service/api.service';
 import { Component, OnInit, AfterViewInit, ViewChild } from '@angular/core';
@@ -5,11 +6,16 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { Router } from '@angular/router';
+=======
+import { Component } from '@angular/core';
+
+>>>>>>> master
 @Component({
   selector: 'app-coin-list',
   templateUrl: './coin-list.component.html',
   styleUrls: ['./coin-list.component.scss']
 })
+<<<<<<< HEAD
 export class CoinListComponent implements OnInit {
 
   bannerData: any = [];
@@ -57,5 +63,8 @@ export class CoinListComponent implements OnInit {
   gotoDetails(row: any) {
     this.router.navigate(['coin-detail',row.id])
   }
+=======
+export class CoinListComponent {
+>>>>>>> master
 
 }

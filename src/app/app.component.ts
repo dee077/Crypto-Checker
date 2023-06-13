@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import { CurrencyService } from './service/currency.service';
+=======
+>>>>>>> master
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,6 +10,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+<<<<<<< HEAD
   selectedCurrency : string = "INR";
   constructor(private currencyService : CurrencyService){
 
@@ -15,4 +19,7 @@ export class AppComponent {
     console.log(event);
     this.currencyService.setCurrency(event);
   }
+=======
+  title = 'Crypto-Checker';
+>>>>>>> master
 }
